@@ -1,0 +1,25 @@
+/* Bài 1667: giữ bố cục của Pra.zip, thay bảng màu đơn tông. */
+:root {
+  --brand: #00ADEE;
+  --accent: #00B2EF;
+  --background: #00BFF2;
+  --surface: #8DD7F7;
+  --footer: #C6E9FA;
+}
+body, #banner { background: var(--background); }
+header, footer, #info { background: var(--footer); }
+body, body a, header, footer, header a, input, button,
+#banner, #banner aside button, #main .preview li a,
+#main section h3 del, #main blockquote p,
+.trans .on-sale, .trans .back button,
+#main .preview .title, #main .preview .triangle,
+body > nav ul li a, #main-nav ul li a { color: #000; }
+#banner, #banner aside button { text-shadow: none; }
+#banner aside button, .trans .on-sale, .trans .back button,
+#main .preview .title, #main .preview .circle { background: var(--brand); }
+#banner aside button:active, .trans .back button:hover { background: var(--accent); }
+#main .preview li a { background: var(--surface); }
+#main-nav ul li a:hover { background: var(--surface); }
+::selection { background: var(--brand); color: #000; }
+body > nav input[type=submit], #main-nav input[type=submit] { color: #000; }
+input::placeholder { color: #000; }
