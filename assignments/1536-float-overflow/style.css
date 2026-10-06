@@ -1,0 +1,5 @@
+* { box-sizing: border-box; }
+.container { width: 100%; overflow: hidden; }
+.left-column { width: 50%; float: left; background-color: lightgray; padding: 20px; }
+.right-column { width: 50%; float: right; background-color: lightgreen; padding: 20px; }
+.overflow-box { width: 300px; height: 100px; background-color: lightcoral; padding: 10px; overflow: auto; clear: both; }
