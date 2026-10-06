@@ -1,0 +1,10 @@
+body { font-family: Arial, sans-serif; max-width: 1000px; margin: 20px auto; }
+header, nav, section, article, aside, footer { border: 1px solid #bbb; padding: 15px; box-sizing: border-box; }
+header { background: #eee; text-align: center; }
+nav { background: #ddd; margin: 5px 0; }
+nav a { margin-right: 20px; color: #16466e; }
+.layout { display: flex; gap: 5px; }
+section { width: 75%; min-height: 350px; }
+article { background: #f5f5f5; }
+aside { width: 25%; background: #eee; }
+footer { clear: both; margin-top: 5px; background: #eee; text-align: center; }
