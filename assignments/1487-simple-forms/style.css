@@ -1,0 +1,14 @@
+* { box-sizing: border-box; }
+body { margin: 24px; font-family: Arial, sans-serif; color: #202020; background: #eef7fb; }
+form { max-width: 640px; margin: 0 auto 24px; padding: 20px; background: white; border: 1px solid #a4c7d9; }
+h2 { margin: 0 0 20px; padding: 12px; background: #dceef7; color: #174e7a; }
+.row { display: grid; grid-template-columns: 150px 1fr; gap: 12px; align-items: start; margin-bottom: 14px; }
+.row label { padding-top: 8px; color: #174e7a; }
+.row input, textarea, select { width: 100%; padding: 8px; border: 1px solid #828282; font: inherit; }
+textarea { resize: vertical; }
+fieldset { border: 1px solid #a4c7d9; margin: 0 0 14px; padding: 12px; }
+legend { color: #174e7a; }
+fieldset label { display: inline-block; margin: 4px 16px 4px 0; }
+.actions { display: flex; gap: 12px; }
+button { padding: 8px 14px; font: inherit; cursor: pointer; }
+@media(max-width:480px) { body { margin:12px; } form { padding:14px; } .row { grid-template-columns:1fr; gap:6px; } }

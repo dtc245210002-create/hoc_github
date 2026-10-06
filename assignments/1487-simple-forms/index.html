@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Tạo form đơn giản</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form id="hobbies" method="get">
+    <h2>Sở thích</h2>
+    <div class="row"><label for="yourname">Họ và tên</label><input id="yourname" name="yourname" type="text"></div>
+    <div class="row"><label for="email-one">Email</label><input id="email-one" name="email" type="email"></div>
+    <fieldset><legend>Sở thích</legend><label><input type="checkbox" name="hobby" value="sports"> Thể thao</label><label><input type="checkbox" name="hobby" value="music"> Âm nhạc</label><label><input type="checkbox" name="hobby" value="reading"> Đọc sách</label></fieldset>
+    <div class="actions"><button type="submit">Gửi thông tin</button><button type="reset">Nhập lại</button></div>
+  </form>
+  <form id="registration" method="get">
+    <h2>Đăng ký học viên</h2>
+    <div class="row"><label for="fullname">Họ và tên</label><input id="fullname" name="fullname" type="text"></div>
+    <div class="row"><label for="email-two">Email</label><input id="email-two" name="email" type="email"></div>
+    <div class="row"><label for="phone">Số điện thoại</label><input id="phone" name="phone" type="tel"></div>
+    <div class="row"><label for="birthday">Ngày sinh</label><input id="birthday" name="birthday" type="date"></div>
+    <fieldset><legend>Giới tính</legend><label><input type="radio" name="gender" value="male"> Nam</label><label><input type="radio" name="gender" value="female"> Nữ</label><label><input type="radio" name="gender" value="other"> Khác</label></fieldset>
+    <div class="row"><label for="address">Địa chỉ</label><textarea id="address" name="address" rows="2"></textarea></div>
+    <div class="row"><label for="course">Khóa học</label><select id="course" name="course"><option>HTML &amp; CSS</option><option>JavaScript</option><option>Java</option><option>Python</option></select></div>
+    <fieldset><legend>Hình thức học</legend><label><input type="radio" name="study_type" value="online"> Online</label><label><input type="radio" name="study_type" value="offline"> Offline</label></fieldset>
+    <fieldset><legend>Sở thích</legend><label><input type="checkbox" name="hobby" value="sports"> Thể thao</label><label><input type="checkbox" name="hobby" value="music"> Âm nhạc</label><label><input type="checkbox" name="hobby" value="reading"> Đọc sách</label></fieldset>
+    <div class="row"><label for="note">Ghi chú</label><textarea id="note" name="note" rows="3"></textarea></div>
+    <div class="actions"><button type="submit">Đăng ký</button><button type="reset">Nhập lại</button></div>
+  </form>
+</body>
+</html>
