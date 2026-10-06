@@ -1,0 +1,5 @@
+table,th,td { border:1px solid black; }
+table { border-collapse:collapse; width:100%; }
+th,td { padding:15px; }
+th { height:50px; text-align:left; background-color:#333; color:white; }
+td { height:80px; vertical-align:bottom; background-color:#f2f2f2; color:#333; }
