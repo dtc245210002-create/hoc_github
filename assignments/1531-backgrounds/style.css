@@ -1,0 +1,2 @@
+body { background-color:#eaf3fb; color:#17324d; font-family:Arial,sans-serif; margin:24px; }
+.important { background-image:url("background.svg"); background-size:cover; background-position:center; min-height:240px; display:flex; align-items:center; justify-content:center; text-align:center; color:white; font-size:24px; }
