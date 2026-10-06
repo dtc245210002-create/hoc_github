@@ -1,0 +1,7 @@
+.grid-container { display: grid; }
+.first { grid-template-columns: repeat(2, 1fr); grid-gap: 20px; }
+.second { grid-template-columns: repeat(3, 1fr); grid-gap: 30px 10px; }
+.grid-container div { padding: 20px; text-align: center; }
+.first div { background-color: lightblue; }
+.second div { background-color: lightgreen; }
+
