@@ -1,0 +1,8 @@
+body { font-family:Arial,sans-serif; }
+#menu ul,#menu li { margin:0; padding:0; }
+#menu li { list-style:none; position:relative; width:100px; height:30px; padding:0 20px; background-color:black; line-height:30px; cursor:pointer; }
+#menu a { text-decoration:none; color:white; display:block; }
+#menu li:hover,#menu li:focus-within { background-color:#555; }
+#menu ul ul { position:absolute; top:0; left:160px; visibility:hidden; }
+#menu li:hover>ul,#menu li:focus-within>ul { visibility:visible; }
+#menu li::after { content:""; position:absolute; top:0; left:100%; width:20px; height:100%; }
