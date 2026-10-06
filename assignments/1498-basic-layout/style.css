@@ -1,0 +1,19 @@
+body { font-family: Arial, sans-serif; font-size: 14px; }
+#main { width: 1000px; margin: 0 auto; }
+#head { height: 100px; background: #f5f5f5; border: 1px solid #ccc; margin-bottom: 5px; }
+.logo, .banner { float: left; height: 100%; display: flex; align-items: center; justify-content: center; box-sizing: border-box; }
+.logo { width: 200px; border-right: 1px solid #ccc; }
+.banner { width: 798px; }
+#head-link { min-height: 30px; background: #f5f5f5; border: 1px solid #ccc; margin-bottom: 5px; }
+a { display: inline-block; padding: 8px 12px; color: #16466e; }
+#left { width: 200px; min-height: 400px; float: left; background: #f5f5f5; border: 1px solid #ccc; box-sizing: border-box; margin-right: 5px; }
+#left a { display: block; }
+#content { width: 585px; min-height: 400px; float: left; border: 1px solid #ccc; box-sizing: border-box; margin-right: 5px; margin-bottom: 5px; padding: 10px; }
+#hot-news, #photo-slide { float: left; width: 48%; height: 120px; border: 1px solid #ccc; box-sizing: border-box; padding: 10px; }
+#photo-slide { float: right; }
+#news-one { clear: both; position: relative; top: 10px; min-height: 180px; border: 1px solid #ccc; padding: 10px; }
+#right { width: 205px; min-height: 400px; float: right; background: #f5f5f5; border: 1px solid #ccc; box-sizing: border-box; padding: 10px; }
+#right > div { height: 100px; border: 1px solid #ccc; margin-bottom: 10px; padding: 8px; box-sizing: border-box; }
+#footer { height: 50px; clear: both; border: 1px solid #ccc; background: #f5f5f5; padding: 0 10px; }
+#footer span { float: left; line-height: 50px; }
+#footer a { float: right; line-height: 34px; }
