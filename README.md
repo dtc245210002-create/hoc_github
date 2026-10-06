@@ -7,3 +7,4 @@ Mỗi thư mục trong `assignments/` tương ứng một hoạt động của k
 |---|---|---|
 | 1667 | Sử dụng màu sắc trong trang web | [Mở thư mục](assignments/1667-monochromatic-colors) |
 | 1668 | Phối màu cho newsletter | [Mở thư mục](assignments/1668-newsletter) |
+| 1669 | Xây dựng Landing Page CodeGym Career | [Mở thư mục](assignments/1669-career-landing) |

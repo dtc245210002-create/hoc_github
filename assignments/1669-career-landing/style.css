@@ -1,0 +1,35 @@
+:root { --ink:#162b45; --blue:#174db8; --orange:#c55b14; }
+html { scroll-behavior:smooth; scroll-padding-top:90px; }
+body { color:var(--ink); font-family:system-ui,sans-serif; }
+.navbar { padding:12px 0; }
+.navbar-brand { color:var(--ink)!important; letter-spacing:-.03em; }
+.navbar-brand span { color:var(--orange); }
+.navbar-brand small { font-size:11px; letter-spacing:.08em; display:block; }
+.navbar .nav-link { font-size:14px; font-weight:600; padding-left:15px!important; padding-right:15px!important; }
+.hero { padding:85px 0 75px; background:#eff5ff; }
+h1 { font-weight:800; font-size:clamp(2.3rem,4vw,3.7rem); letter-spacing:-.05em; line-height:1.15; }
+h1 span { color:var(--blue); }
+.hero .lead { font-size:1.12rem; max-width:620px; line-height:1.8; }
+.eyebrow { font-weight:750; letter-spacing:.12em; font-size:.72rem; color:var(--blue); }
+.hero-facts { gap:30px; flex-wrap:wrap; }
+.hero-facts b { font-size:1.05rem; display:block; }
+.hero-facts small { display:block; margin-top:6px; }
+.workspace { border-radius:15px; overflow:hidden; transform:rotate(2deg); }
+.workspace-top { padding:18px; background:#172c48; color:white; display:flex; justify-content:space-between; }
+.workspace-body { padding:25px; background:#fff; }
+.code-line { font-family:monospace; font-size:13px; margin-bottom:30px; }
+.project-card { background:#eff5ff; border:1px solid #d4e0f6; border-radius:10px; padding:25px; }
+.chip { border-radius:20px; background:#dce7ff; padding:5px 10px; font-size:10px; font-weight:800; color:var(--blue); }
+.section { padding:75px 0; }
+.section-title { font-size:clamp(1.8rem,3vw,2.5rem); font-weight:800; letter-spacing:-.035em; }
+.section-intro { max-width:700px; line-height:1.8; }
+.card { border-radius:10px; }
+.card p { line-height:1.8; margin-bottom:0; }
+.feature-icon,.step { background:#e6edff; color:var(--blue); font-size:16px; font-weight:800; padding:12px; border-radius:10px; width:48px; text-align:center; }
+.pale { background:#f6f8fc; }
+.page-footer { background:#162b45; }
+.btn { text-transform:none; font-weight:650; border-radius:6px; padding:13px 22px; }
+.btn-primary { background:var(--blue)!important; }
+label { font-size:.9rem; font-weight:650; }
+a:focus-visible,button:focus-visible { outline:3px solid #c55b14; outline-offset:4px; }
+@media(max-width:767px) { .hero { padding:48px 0; } .section { padding:48px 0; } .workspace { transform:none; } .hero-facts { gap:18px; } .navbar { padding-left:16px; padding-right:16px; } }
