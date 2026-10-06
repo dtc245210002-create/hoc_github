@@ -1,0 +1,11 @@
+.grid-container { display: grid; grid-template-columns: repeat(2, 1fr); }
+.grid-container > div { background-color: lightblue; padding: 20px; text-align: center; }
+.length { grid-row-gap: 20px; }
+.percentage { grid-row-gap: 5%; height: 400px; }
+.percentage > div { background-color: lightgreen; }
+.parent { grid-row-gap: 30px; }
+.initial { grid-row-gap: initial; }
+.inherit { grid-row-gap: inherit; }
+.unset { grid-row-gap: unset; }
+.revert { grid-row-gap: revert; }
+
