@@ -1,0 +1,6 @@
+.grid-container { display: grid; grid-template-columns: repeat(3, 1fr); grid-template-rows: repeat(3, 100px); gap: 10px; }
+.item { background-color: lightblue; padding: 20px; text-align: center; }
+.first .item1 { grid-row: 1 / 3; }
+.second .item1 { grid-row: 2 / 4; }
+.span .item1 { grid-row: span 2; }
+
