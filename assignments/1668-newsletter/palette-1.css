@@ -1,0 +1,12 @@
+/* Adobe Color — Analogous, lấy ngày 06/10/2026. */
+:root {
+  --primary: #D73220;
+  --secondary: #D6204F;
+  --secondary-text: #fff;
+  --accent: #D620BC;
+  --accent-text: #000;
+  --board: #D65220;
+  --footer: #D67220;
+  --footer-text: #000;
+  --page: #fff5f0;
+}

@@ -1,0 +1,12 @@
+/* Adobe Color — Complementary, lấy ngày 06/10/2026. */
+:root {
+  --primary: #3E815E;
+  --secondary: #96453C;
+  --secondary-text: #fff;
+  --accent: #20D677;
+  --accent-text: #000;
+  --board: #D73220;
+  --footer: #573B38;
+  --footer-text: #fff;
+  --page: #f0f7f3;
+}

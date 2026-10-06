@@ -6,3 +6,4 @@ Mỗi thư mục trong `assignments/` tương ứng một hoạt động của k
 | Hoạt động | Bài tập | Mã nguồn |
 |---|---|---|
 | 1667 | Sử dụng màu sắc trong trang web | [Mở thư mục](assignments/1667-monochromatic-colors) |
+| 1668 | Phối màu cho newsletter | [Mở thư mục](assignments/1668-newsletter) |
