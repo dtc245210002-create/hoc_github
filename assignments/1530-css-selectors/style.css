@@ -1,0 +1,9 @@
+body { background-color:#eef5fc; margin:24px; }
+h1,p,li,button { font-family:Arial,sans-serif; }
+#title { text-align:center; color:#174c79; }
+.hobbies li { padding:6px; }
+.hobbies li:nth-child(1) { color:#174c79; }
+.hobbies li:nth-child(2) { color:#286044; }
+.hobbies li:nth-child(3) { color:#92391c; }
+button { background-color:#174c79; color:white; border:0; padding:10px 16px; cursor:pointer; }
+button:hover { background-color:#286044; }
