@@ -1,0 +1,7 @@
+.container { display: flex; flex-wrap: wrap; width: 600px; height: 300px; gap: 10px; border: 2px solid black; }
+.item { width: 180px; height: 80px; padding: 20px; background-color: lightblue; text-align: center; box-sizing: border-box; }
+.nowrap { flex-wrap: nowrap; }
+.wrap { flex-wrap: wrap; }
+.wrap-reverse { flex-wrap: wrap-reverse; }
+.initial { flex-wrap: initial; }
+
