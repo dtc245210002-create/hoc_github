@@ -1,0 +1,7 @@
+.grid-container { display: grid; gap: 10px; }
+.auto { grid-template-columns: 100px 100px 100px; }
+.auto .item1 { grid-column-start: auto; }
+.span, .line { grid-template-columns: repeat(4, 1fr); }
+.span .item1 { grid-column-start: span 2; }
+.line .item1 { grid-column-start: 2; }
+.grid-container > div { border: 1px solid #ccc; }
