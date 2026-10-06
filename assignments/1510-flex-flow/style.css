@@ -1,0 +1,5 @@
+.container-1 { display: flex; flex-flow: row nowrap; background-color: #f1f1f1; }
+.container-2 { display: flex; flex-flow: row-reverse nowrap; background-color: #f1f1f1; }
+.container-1 > div, .container-2 > div { color: white; width: 100px; margin: 10px; text-align: center; line-height: 50px; }
+.container-1 > div { background-color: #007bff; }
+.container-2 > div { background-color: #28a745; }
