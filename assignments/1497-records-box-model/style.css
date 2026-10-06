@@ -1,0 +1,13 @@
+html,body,h1,h2,h3,h4,ul,ol,li,p,a { padding:0; border:0; margin:0; }
+body { width:720px; max-width:calc(100% - 40px); margin:20px auto; padding:20px; border:1px solid #ccc; box-sizing:border-box; font-family:Arial,sans-serif; }
+h1 { color:#000000; padding-bottom:12px; border-bottom:2px solid #333; margin-bottom:14px; }
+h2 { color:#000000; margin:24px 0 14px; }
+h3 { color:#333333; margin:18px 0 10px; }
+ul { padding-left:24px; margin:10px 0 16px; }
+li { padding:4px 0; }
+body>ul:first-of-type { list-style:none; padding:0; }
+body>ul:first-of-type>li { display:inline-block; margin-right:20px; }
+p { color:#444444; margin:8px 0; line-height:1.5; }
+a { color:#440000; }
+body>ul:last-of-type { list-style:none; padding:0; }
+body>ul:last-of-type>li { padding:10px 0; border-bottom:1px solid #ccc; }
