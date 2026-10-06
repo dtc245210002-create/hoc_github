@@ -1,0 +1,6 @@
+.grid-container { display: grid; gap: 10px; }
+.equal { grid-template-columns: 1fr 1fr 1fr; }
+.different { grid-template-columns: 100px 200px 1fr; }
+.grid-container div { padding: 20px; text-align: center; }
+.equal div { background-color: lightblue; }
+.different div { background-color: lightgreen; }
