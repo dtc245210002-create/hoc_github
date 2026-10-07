@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Phim hoạt hình</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="header"><a class="logo" href="#content">Phim <span>Hoạt Hình</span></a></div>
+  <div class="head-link"><a href="#content">Phim hoạt hình</a><a href="#list">Danh sách phim</a></div>
+  <div class="content" id="content">
+    <div class="left-content" id="list">
+      <label for="search">Tìm phim theo tên</label>
+      <input id="search" type="search" placeholder="Nhập tên phim">
+      <label for="sort">Sắp xếp</label>
+      <select id="sort"><option value="newest">Mới cập nhật</option><option value="views">Nhiều lượt xem nhất</option></select>
+      <div id="videos"></div>
+      <p id="empty" hidden>Không tìm thấy phim.</p>
+    </div>
+    <div class="right-content">
+      <iframe id="youtube" title="Video hoạt hình" src="https://www.youtube-nocookie.com/embed/eJ-ZD_B6ySQ" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <video id="local-video" controls playsinline preload="metadata" hidden></video>
+      <h1 id="title">Wolfoo – Lucy học luật an toàn giao thông</h1>
+      <p id="description">Hoạt hình tiếng Việt về an toàn giao thông từ kênh Wolfoo Việt Nam.</p>
+      <p id="views">0 lượt xem trên trang</p>
+    </div>
+  </div>
+  <div class="footer">Big Buck Bunny © Blender Foundation. Wolfoo © SCONNECT.</div>
+</body>
+</html>
