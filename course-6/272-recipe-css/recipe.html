@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Công thức trứng chiên hành</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <article id="recipe-card">
+        <header>
+            <h1>Trứng chiên hành</h1>
+            <p>Món trứng chiên hành thơm, mềm, dễ làm cho bữa cơm gia đình.</p>
+            <img src="images/trung-chien.svg" alt="Đĩa trứng chiên vàng với hành lá" width="480" height="320">
+        </header>
+        <section>
+            <h2>Nguyên liệu</h2>
+            <table>
+                <thead><tr><th scope="col">Tên nguyên liệu</th><th scope="col">Số lượng</th><th scope="col">Đơn vị</th></tr></thead>
+                <tbody>
+                    <tr><td class="highlight">Trứng gà</td><td>3</td><td>quả</td></tr>
+                    <tr><td>Hành lá</td><td>2</td><td>nhánh</td></tr>
+                    <tr><td>Nước mắm</td><td>1</td><td>thìa cà phê</td></tr>
+                    <tr><td>Dầu ăn</td><td>1</td><td>thìa canh</td></tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <h2>Các bước thực hiện</h2>
+            <ol>
+                <li>Rửa sạch hành lá và thái nhỏ.</li>
+                <li>Đập trứng vào bát, thêm nước mắm và hành lá rồi đánh đều.</li>
+                <li>Làm nóng dầu trong chảo, đổ hỗn hợp trứng vào và chiên trên lửa vừa.</li>
+                <li>Lật trứng, chiên đến khi hai mặt vàng và trứng chín hoàn toàn.</li>
+                <li>Cho trứng ra đĩa và dùng nóng với cơm.</li>
+            </ol>
+        </section>
+        <footer><p>Mẹo nhỏ: Giữ lửa vừa để trứng chín đều và không bị khô.</p></footer>
+    </article>
+    <section>
+        <h2>Để lại phản hồi của bạn</h2>
+        <form action="#" method="post">
+            <p><label for="ten">Tên người gửi:</label><br><input type="text" id="ten" name="ten"></p>
+            <fieldset>
+                <legend>Đánh giá món ăn</legend>
+                <input type="radio" id="sao-1" name="danh_gia" value="1"><label for="sao-1">1 sao</label>
+                <input type="radio" id="sao-2" name="danh_gia" value="2"><label for="sao-2">2 sao</label>
+                <input type="radio" id="sao-3" name="danh_gia" value="3"><label for="sao-3">3 sao</label>
+                <input type="radio" id="sao-4" name="danh_gia" value="4"><label for="sao-4">4 sao</label>
+                <input type="radio" id="sao-5" name="danh_gia" value="5"><label for="sao-5">5 sao</label>
+            </fieldset>
+            <p><label for="binh-luan">Bình luận:</label><br><textarea id="binh-luan" name="binh_luan" rows="5"></textarea></p>
+            <button type="submit">Gửi phản hồi</button>
+        </form>
+    </section>
+</body>
+</html>
