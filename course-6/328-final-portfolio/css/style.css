@@ -1,0 +1,76 @@
+/* Thiết lập chung */
+html { box-sizing: border-box; font-size: 100%; }
+*, *::before, *::after { box-sizing: inherit; }
+body { margin: 0; min-height: 100vh; display: flex; flex-direction: column; font-family: Arial, sans-serif; font-size: 1rem; line-height: 1.7; color: #193c43; background: #f8f8f3; }
+main { flex: 1; }
+h1, h2 { font-family: Georgia, serif; line-height: 1.15; }
+h1 { margin: 0 0 1.5rem; font-size: 2.5rem; font-weight: 400; letter-spacing: -0.035em; max-width: 18ch; }
+h2 { font-size: 1.6rem; margin: 0 0 1rem; }
+p { margin: 0 0 1.25rem; }
+a { color: #174e59; text-underline-offset: 0.25rem; }
+a:hover { color: #88562b; }
+a:focus-visible, button:focus-visible { outline: 3px solid #be8651; outline-offset: 4px; }
+img { display: block; max-width: 100%; height: auto; }
+.container { width: min(100% - 2.5rem, 72rem); margin: 0 auto; }
+.eyebrow { font-size: 0.75rem; font-weight: 700; letter-spacing: 0.15em; text-transform: uppercase; color: #6d746b; }
+.page-content { padding-top: 3rem; padding-bottom: 4rem; }
+.page-lead { max-width: 40rem; color: #516970; }
+/* Thành phần dùng chung */
+.site-header { width: min(100% - 2.5rem, 72rem); margin: 0 auto; padding: 1.5rem 0; border-bottom: 1px solid #d9e0db; }
+.brand { display: block; font-size: 1.2rem; font-weight: 700; text-decoration: none; }
+.brand span { display: block; font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.2em; font-weight: 400; }
+nav ul { list-style: none; margin: 1rem 0 0; padding: 0; display: flex; flex-direction: column; gap: 0.25rem; }
+nav a { display: block; padding: 0.35rem 0; text-decoration: none; }
+nav a:hover { text-decoration: underline; }
+.button { display: inline-flex; justify-content: space-between; align-items: center; gap: 2rem; padding: 0.9rem 1.35rem; border: 1px solid #174e59; border-radius: 0.25rem; background: #174e59; color: #fff; text-decoration: none; font: inherit; cursor: pointer; transition: background-color 0.2s; }
+.button:hover { background: #286a73; border-color: #286a73; color: #fff; }
+.site-footer { width: min(100% - 2.5rem, 72rem); margin: 0 auto; padding: 1.5rem 0; border-top: 1px solid #d9e0db; font-size: 0.875rem; }
+.site-footer p { margin-bottom: 0.5rem; }
+.social-links { display: flex; gap: 1.25rem; }
+/* Trang chủ và giới thiệu */
+.hero { display: grid; gap: 2.5rem; align-items: center; padding-top: 3rem; padding-bottom: 4rem; }
+.intro { max-width: 34rem; font-size: 1.1rem; color: #516970; }
+.portrait { background: #e3eeea; border-radius: 45% 45% 1rem 1rem; padding: 2rem; }
+.portrait img { width: 100%; max-width: 22rem; margin: 0 auto; border-radius: 50%; }
+.about-grid { display: grid; gap: 2rem; }
+.about-portrait { width: 100%; max-width: 20rem; border-radius: 1rem; }
+.about-grid section + section { margin-top: 2rem; }
+.skills { padding-left: 1.25rem; }
+/* Thẻ dự án */
+.project-grid { display: grid; grid-template-columns: minmax(0, 1fr); gap: 1.5rem; margin-top: 2rem; }
+.project-card { min-width: 0; border: 1px solid #d9e0db; border-radius: 0.6rem; overflow: hidden; background: #fff; }
+.project-card > img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; background: #e3eeea; }
+.project-body { padding: 1.5rem; }
+.project-body .eyebrow { margin-bottom: 0.75rem; }
+.project-body h2 { font-size: 1.6rem; }
+.project-body p { color: #516970; }
+.project-links { display: flex; flex-wrap: wrap; gap: 0.5rem 1rem; font-size: 0.875rem; }
+/* Biểu mẫu liên hệ */
+.contact-grid { display: grid; gap: 2.5rem; }
+form { display: grid; gap: 0.65rem; }
+label { font-weight: 700; }
+input, textarea { width: 100%; min-width: 0; padding: 0.85rem; margin-bottom: 0.75rem; border: 1px solid #b9ccc9; border-radius: 0.25rem; background: #fff; color: #193c43; font: inherit; }
+input:focus, textarea:focus { outline: 2px solid #568a8d; outline-offset: 2px; }
+textarea { resize: vertical; }
+form .button { justify-self: start; }
+.contact-panel { padding: 1.5rem; align-self: start; background: #e3eeea; border-radius: 0.5rem; }
+.contact-panel ul { list-style: none; padding: 0; margin: 0; }
+.contact-panel li + li { margin-top: 0.75rem; }
+/* Tablet */
+@media (min-width: 768px) {
+  .site-header { display: flex; align-items: center; justify-content: space-between; gap: 2rem; }
+  nav ul { flex-direction: row; gap: 1.5rem; margin: 0; }
+  .site-footer { display: flex; align-items: center; justify-content: space-between; }
+  .site-footer p { margin: 0; }
+  h1 { font-size: 3.5rem; }
+  .project-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .about-grid { grid-template-columns: 1fr 2fr; gap: 3rem; }
+  .contact-grid { grid-template-columns: 1.4fr 1fr; }
+}
+/* Desktop */
+@media (min-width: 1024px) {
+  .hero { grid-template-columns: 1.3fr 1fr; gap: 4rem; min-height: 36rem; padding-top: 4rem; padding-bottom: 4rem; }
+  h1 { font-size: 4rem; }
+  .project-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .page-content { padding-top: 4rem; padding-bottom: 5rem; }
+}
