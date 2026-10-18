@@ -1,0 +1,18 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: sans-serif; background-color: #f4f4f4; }
+.main-header { position: relative; display: flex; justify-content: space-between; align-items: center; background-color: #333; padding: 15px 20px; color: white; }
+.logo { color: white; text-decoration: none; font-size: 24px; font-weight: bold; }
+.menu-toggle { display: none; }
+.hamburger-menu { cursor: pointer; }
+.hamburger-menu .bar { display: block; width: 25px; height: 3px; background-color: white; margin: 5px 0; }
+.main-nav { position: absolute; top: 100%; left: 0; width: 100%; background-color: #444; transform: translateY(-100%); visibility: hidden; transition: transform 0.3s ease, visibility 0.3s; z-index: 10; }
+.main-nav ul { list-style: none; }
+.main-nav a { display: block; padding: 15px; color: white; text-decoration: none; border-bottom: 1px solid #555; }
+.menu-toggle:checked ~ .main-nav { transform: translateY(0); visibility: visible; }
+@media (min-width: 768px) {
+.hamburger-menu { display: none; }
+.main-nav { position: static; transform: none; visibility: visible; width: auto; background-color: transparent; }
+.main-nav ul { display: flex; }
+.main-nav a { border-bottom: none; }
+.main-nav a:hover { background-color: #555; border-radius: 4px; }
+}
