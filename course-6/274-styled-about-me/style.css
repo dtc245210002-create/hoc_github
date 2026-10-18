@@ -1,0 +1,18 @@
+/* Thiết lập chung */
+html { box-sizing: border-box; }
+*, *::before, *::after { box-sizing: inherit; }
+body { margin: 0; font-family: Arial, sans-serif; background-color: #eef3f7; color: #293c4b; }
+.container { max-width: 900px; margin: 20px auto; padding: 40px; background-color: white; }
+/* Phần đầu trang */
+header { text-align: center; }
+header img { border-radius: 50%; }
+h1 { font-family: Georgia, serif; font-size: 2.5rem; color: #245a7c; }
+/* Nội dung giới thiệu */
+h2 { color: #245a7c; border-bottom: 2px solid #c4d9e7; padding-bottom: 8px; }
+p { line-height: 1.7; }
+strong { color: #b05725; }
+/* Liên kết và chân trang */
+a { color: #216b9a; text-decoration: none; }
+a:hover { color: #a24c1f; text-decoration: underline; }
+section:last-child ul { list-style: none; padding: 0; }
+footer { margin-top: 30px; text-align: center; }
