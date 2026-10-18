@@ -1,0 +1,6 @@
+html { box-sizing: border-box; }
+*, *::before, *::after { box-sizing: inherit; }
+body { margin: 0; font-family: Arial, sans-serif; background-color: #f5f7fa; }
+.product-grid { display: flex; flex-wrap: wrap; gap: 20px; padding: 20px; }
+.product-card { flex: 1 1 calc(25% - 20px); min-width: 220px; background: #ffffff; border: 1px solid #e2e8f0; border-radius: 8px; padding: 16px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); transition: transform 0.2s ease; }
+.product-card:hover { transform: translateY(-4px); }
